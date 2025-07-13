@@ -1,0 +1,1 @@
+console.log('BVG Dashboard script loaded');
