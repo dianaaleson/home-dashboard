@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="bvg-dashboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>HOME DASHBOARD</h1>
-    <h2>BUS DEPARTURES</h2>
+    <div class="maincontent">
+    <section id="bvg" class="container">
+        <h2>BVG DEPARTURES</h2>
+        <div id="card" class="row">
+            <div id="station1" class="col-lg-6">
+                <h3>Lindenstrasse</h3>
+            </div>
+            <div id="station2" class="col-lg-6">
+                <h3>Checkpoint Charlie</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="weather" class="container">
+        <h2>WEATHER</h2>
+        <div id="card" class="row">
+            <div class="col-lg-6">
+                Temperature
+            </div>
+            <div class="col-lg-6">
+                Rain
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

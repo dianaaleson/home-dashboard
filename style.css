@@ -1,6 +1,31 @@
 body {
-  font-family: sans-serif;
-  background-color: pink;
-  padding: 2rem;
-  color: black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #fae7d8;
+  color: #2f365f;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1.1rem;
 }
+h1{
+  padding-top: 10px;
+}
+.maincontent{
+  height: 85vh;
+}
+section{
+  /* border: 3px dotted green; */
+  background-color: #f88f8eb7;
+}
+#bvg{
+  min-height: 450px;
+}
+
+#card{
+  /* border: 3px dotted red; */
+ 
+}
+#station1, #station2{
+  /* border: 3px dotted blue; */
+  
+}
+
