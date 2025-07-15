@@ -2,28 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Dashboard</title>
+    <title>Home-Dashboard</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>HOME DASHBOARD</h1>
     <div class="maincontent">
-    <section id="bvg" class="container">
-        <h2>BVG DEPARTURES</h2>
-        <div id="card" class="row">
-            <div id="station1" class="col-lg-6">
-                <h3>Lindenstrasse</h3>
+    <section id="bvg" class="">
+        <h3>BVG DEPARTURES</h3>
+        <div id="card" class="container-fluid"><h2>Lindenstraße</h2>
+            <div id="station1" class="row">
+                <div class="busstop col-lg-6" id="v-u">248 Up</div>
+                <div class="busstop col-lg-6" id="h-l">M29 Left</div>
+                <div class="busstop col-lg-6" id="v-d">248 Down</div>
+                <div class="busstop col-lg-6" id="h-r">M29 Right</div>
             </div>
-            <div id="station2" class="col-lg-6">
-                <h3>Checkpoint Charlie</h3>
+            <div id="station2" class="col-lg-12">
+                <h2>Checkpoint Charlie</h2>
             </div>
         </div>
     </section>
-
-    <section id="weather" class="container">
-        <h2>WEATHER</h2>
-        <div id="card" class="row">
+<br>
+    <section id="weather" class="container-fluid">
+        <h3>WEATHER</h3>
+        <div class="row">
             <div class="col-lg-6">
                 Temperature
             </div>

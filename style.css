@@ -22,10 +22,18 @@ section{
 
 #card{
   /* border: 3px dotted red; */
+  color: #6d76a6;
  
 }
-#station1, #station2{
-  /* border: 3px dotted blue; */
-  
+#station1{
+  margin-bottom: 50px;  
 }
 
+.busstop{
+  margin: 3px 0px;  
+  color: #6d76a6;
+}
+
+.bd{
+  color: #2f365f;
+}
