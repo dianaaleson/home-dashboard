@@ -50,3 +50,8 @@ fetch('https://v6.vbb.transport.rest/stops/900012102/departures?results=5')
     //     console.log(data);
     // })
     .catch(error => console.log(error))
+
+
+fetch('https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=precipitation_sum&timezone=Europe%2FBerlin')
+    .then(res => res.json())
+    .then(data => console.log(data))
